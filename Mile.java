@@ -2,9 +2,9 @@ public class Main {
     public static void main(String[] args) {
         boolean Mile = true;
         long price = 100;
-        int percent = 5;
+        int bonus_fix = 20;
 
-        long bonus = price /  percent;
+        long bonus = price / bonus_fix;
         System.out.println(bonus);
     }
 }
